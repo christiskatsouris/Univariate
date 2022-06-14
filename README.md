@@ -22,4 +22,4 @@ $$\gamma (k) = \mathbb{E} ( X_t . X_{t-k} ) \equiv \text{Cov} ( X_t , X_{t-k} ).
 
 ## References
 
-- Engle, R. F., Hendry, D. F., & Richard, J. F. (1983). Exogeneity. Econometrica: Journal of the Econometric Society, 277-304.
+- Tsay, R. S. (2005). Analysis of financial time series. John wiley & sons. (Chapter 1: Financial Time Series and Their Characteristics)
