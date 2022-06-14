@@ -20,6 +20,6 @@ Consider a time-series Xt with autocovariance function given by
 $$\gamma (k) = \mathbb{E} ( X_t . X_{t-k} ) \equiv \text{Cov} ( X_t , X_{t-k} ).$$
 
 
-## References
+## Further Reading
 
 - Tsay, R. S. (2005). Analysis of financial time series. John wiley & sons. (Chapter 1: Financial Time Series and Their Characteristics)
