@@ -13,6 +13,13 @@ A stochastic process is an ordered sequence of random variables
 $$X_t : t \in T.$$
 
 
+### Time-Series Stationary Processes: Covariance Stationarity
+
+Consider a time-series Xt with autocovariance function given by
+
+$$\gamma (k) = \mathbb{E} ( X_t . X_{t-k} ) \equiv \text{Cov} ( X_t , X_{t-k} ).$$
+
+
 ## References
 
 - Engle, R. F., Hendry, D. F., & Richard, J. F. (1983). Exogeneity. Econometrica: Journal of the Econometric Society, 277-304.
