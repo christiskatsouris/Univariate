@@ -11,3 +11,8 @@ Economic time series are often decomposed into a deterministic trend and a stoch
 A stochastic process is an ordered sequence of random variables 
 
 $$X_t : t \in T.$$
+
+
+## References
+
+- Engle, R. F., Hendry, D. F., & Richard, J. F. (1983). Exogeneity. Econometrica: Journal of the Econometric Society, 277-304.
