@@ -25,6 +25,15 @@ $$\rho ({k}) = \frac{ \text{Cov} ( X_t , X_{t-k} ) }{ \sigma^2 }.$$
 
 Therefore, both the sample autocovariance (acf) and sample autocorrelation functions are considered as measured of dependency for stationary time-series data.    
 
+## Example 1
+
+Consider a financial time series sequence and obtain the autocovariance and autocorrelation functions. 
+
+## References
+
+- Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
+
 ## Further Reading
 
 - Tsay, R. S. (2005). Analysis of financial time series. John wiley & sons. (Chapter 1: Financial Time Series and Their Characteristics)
+
