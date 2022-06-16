@@ -19,6 +19,11 @@ Consider a time-series Xt with autocovariance function given by
 
 $$\gamma (k) = \mathbb{E} ( X_t . X_{t-k} ) \equiv \text{Cov} ( X_t , X_{t-k} ).$$
 
+Similarly the autocorrelation function of the time-series is given by 
+
+$$\rho ({k}) = \frac{ \text{Cov} ( X_t , X_{t-k} ) }{ \sigma^2 }.$$
+
+Therefore, both the sample autocovariance (acf) and sample autocorrelation functions are considered as measured of dependency for stationary time-series data.    
 
 ## Further Reading
 
