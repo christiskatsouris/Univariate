@@ -10,8 +10,13 @@ Economic time series are often decomposed into a deterministic trend and a stoch
 
 A stochastic process is an ordered sequence of random variables 
 
-$$X_t : t \in T.$$
+$$X_t : t \in \mathbb{N}.$$
 
+such that 
+
+$$X_1, X_2, X_3,...$$
+
+is a strictly stationary process with covariance function obtained as explained below. 
 
 ### Time-Series Stationary Processes: Covariance Stationarity
 
