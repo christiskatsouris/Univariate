@@ -46,7 +46,7 @@ Hence, or otherwise obtain the autocovariance and autocorrelation functions.
 
 1. Notice that although the main assumption regarding the innovation sequence of the the stationary AR(1) time series model is that ut is an i.i.d sequence with mean zero and known variance, this assumption can be further relaxed to incorporate weakly or strongly dependent error sequences. In particular, by imposing a linear process representation then we can introduce the notation of weakly dependent errors 
 
-$$u_t = \sum_{j=0}^{\infty} c_j \epsilon_{t-j}, \ \ c_0 = 1, \epsilon_t \overset{ i.i.d }{ \sim } ( 0, \sigma^2 ), \ \ \ \text{where} ( c_j ), \ \  j=1,...,+\infty, \ \ \text{are real coefficients},$$
+$$u_t = \sum_{j=0}^{\infty} c_j \epsilon_{t-j}, \ \ c_0 = 1, \epsilon_t \overset{ i.i.d }{ \sim } ( 0, \sigma^2 ), \ \ \ \text{where} \ \{ c_j \}, \ \  j=1,...,+\infty, \ \ \text{are real coefficients},$$
 
 and it holds that 
 
