@@ -62,7 +62,7 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 
 ## Further Reading
 
-- Hamilton, J. D. (1994). Time series analysis. Princeton university press. (Chapter 2: Lag Operators)
+- Hamilton, J. D. (1994). "Time series analysis". Princeton university press. (Chapter 2: Lag Operators)
 - Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
 - Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
 
