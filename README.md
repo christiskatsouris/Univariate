@@ -36,7 +36,11 @@ Therefore, the above equation can only be seen as a proper stochastic process mo
 
 ## Example 1
 
-Consider a financial time series sequence and obtain the autocovariance and autocorrelation functions. 
+Consider the stationary AR(1) model. Write an expression that generates sequenentially the series and then obtain the autocovariance and autocorrelation functions.
+
+## Solution 1
+
+$$X_t = \rho^t X_0 + \sum_{j=1}^t \rho^{t-j} u_j.$$
 
 ## References
 
