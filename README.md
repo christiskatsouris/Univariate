@@ -36,11 +36,17 @@ Therefore, the above equation can only be seen as a proper stochastic process mo
 
 ## Example 1
 
-Consider the stationary AR(1) model. Write an expression that generates sequenentially the series and then obtain the autocovariance and autocorrelation functions.
-
-## Solution 1
+Consider the stationary AR(1) model. Write an expression that generates sequenentially the series.  
 
 $$X_t = \rho X_{t-1} + u_t, X_0 = 0, \ \ \text{then} \ \ \  X_t = \rho^t X_0 + \sum_{j=1}^t \rho^{t-j} u_j.$$
+
+Hence, or otherwise obtain the autocovariance and autocorrelation functions. 
+
+## Remarks
+
+1. Notice that although the main assumption regarding the innovation sequence of the the stationary AR(1) time series model is that ut is an i.i.d sequence with mean zero and variance 1, this assumption can be further relaxed to incorporate weakly or strongly dependent error sequences. In particular, by imposing a linear process representation then we can introduce the notation of weakly dependent errors such that 
+
+$$u_t = \sum_{j=0}^{\infty} c_j \epsilon_{t-j}, \ \ c_0 = 1, \epsilon_t \overset{ i.i.d }{ \sim } ( 0, \sigma^2 ).$$
 
 ## References
 
