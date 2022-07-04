@@ -54,11 +54,15 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 
 2. Notice that the above conditions provide related summability conditions so that the corresponding sums of innovations weakly converge almost surely. Furthermore, the absolute summability condition is considered to be stronger that square-summability.
 
+3. Furthermore, we consider autoregressive processes which belong to the class of covariance-stationary processes. 
+
 ## References
 
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
 
 ## Further Reading
 
-- Tsay, R. S. (2005). Analysis of financial time series. John wiley & sons. (Chapter 1: Financial Time Series and Their Characteristics)
+- Hamilton, J. D. (1994). Time series analysis. Princeton university press. (Chapter 2: Lag Operators)
+- Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
+- Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
 
