@@ -40,7 +40,7 @@ Consider the stationary AR(1) model. Write an expression that generates sequenen
 
 ## Solution 1
 
-$$X_t = \rho^t X_0 + \sum_{j=1}^t \rho^{t-j} u_j.$$
+$$X_t = \rho X_{t-1} + u_t, X_0 = 0, \ \ \text{then} \ \ \  X_t = \rho^t X_0 + \sum_{j=1}^t \rho^{t-j} u_j.$$
 
 ## References
 
