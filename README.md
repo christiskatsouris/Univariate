@@ -61,7 +61,7 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 
 2. Notice that the above conditions provide related summability conditions so that the corresponding sums of innovations weakly converge almost surely. Furthermore, the absolute summability condition is considered to be stronger that square-summability.
 
-3. Furthermore, we consider autoregressive processes which belong to the class of covariance-stationary processes. 
+3. Notice that, we consider autoregressive processes which belong to the class of covariance-stationary processes (which are in the class of causal processes). 
 
 ## References
 
