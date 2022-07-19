@@ -66,6 +66,8 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 ## References
 
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
+- Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of
+Financial Studies, 15(2):533-564.
 
 # Further Reading
 
