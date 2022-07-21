@@ -41,7 +41,7 @@ The above aspects are considered to be the fundamental assumptions in time serie
 highest unconditional expected returns (see, section 2 of Lewellen (2002)). Therefore, the assumption of serial correlation provides not only a more realistic representation on investors behaviour (e.g., as explained by momentum strategies) but also captures important features in financial markets especially for models of portfolio loss or risk. In this teaching page we focus on time-series modelling under the assumption of stationarity and ergodicity. 
 
 
-## Example 1
+## Example 1: Stationary AR(1) Model
 
 Consider the stationary AR(1) model. Write an expression that generates sequenentially the series.  
 
@@ -66,6 +66,21 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 2. Notice that the above conditions provide related summability conditions so that the corresponding sums of innovations weakly converge almost surely. Furthermore, the absolute summability condition is considered to be stronger that square-summability.
 
 3. Notice that, we consider autoregressive processes which belong to the class of covariance-stationary processes (which are in the class of causal processes). 
+
+
+## Example 2: ARMA(p,q) Modelling 
+
+```R
+
+## Estimation Examples in R 
+
+
+
+
+```
+
+
+
 
 ## References
 
