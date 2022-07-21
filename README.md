@@ -4,7 +4,7 @@ The field of Time Series Econometrics focuses on the develompent of econometric 
 
 Economic time series are often decomposed into a deterministic trend and a stochastic process which is the main idea upon which various time-series regression models are implemented. Furthermore, a second aspect of concern is to distinguish "short-run" from "long-run" relationships. In particular, these long-run relationships are closely linked to the concepts of equilibrium relationships in economic theory and of persistence co-movements of economic time series in econometrics.     
 
-## Introduction 
+# 1. Introduction 
 
 ### Preliminary Concepts on Stochastic Processes
 
@@ -36,10 +36,10 @@ Therefore, the above equation can only be seen as a proper stochastic process mo
 
 ## Remarks
 
-The above aspects are considered to be the fundamental assumptions in time series models. However, often these assumptions could vary depending on both the econometric model under consideration as well as on the empirical data application. For example, when modelling stock returns the presence of serial correlation  has an important interpretation in the financial economics literature. Specifically, incorporating serial correlation in models of stock prices and expected returns can provide additional evidence on the validity of the efficient market hypothesis and explain other market anomalies. For instance, Lewellen
-(2002) explains that momentum can arise in three ways: (i) positive autocorrelation due to investors expectations of high-performing firms, (ii) negative cross-sectional correlation of a firm with respect to the cross-section of the same industry, and (iii) under the assumption of absence of time-series predictability since momentum strategies are based on unconditional means, positive profits are expected for investing in stocks with the
+The above aspects are considered to be the fundamental assumptions in time series models. However, often these assumptions could vary depending on both the econometric model under consideration as well as on the empirical data application. For example, when modelling stock returns the presence of serial correlation  has an important interpretation in the financial economics literature. Specifically, incorporating serial correlation in models of stock prices and expected returns can provide additional evidence on the validity of the efficient market hypothesis and explain other market anomalies. For instance, Lewellen (2002) explains that momentum can arise in three ways: (i) positive autocorrelation due to investors expectations of high-performing firms, (ii) negative cross-sectional correlation of a firm with respect to the cross-section of the same industry, and (iii) under the assumption of absence of time-series predictability since momentum strategies are based on unconditional means, positive profits are expected for investing in stocks with the
 highest unconditional expected returns (see, section 2 of Lewellen (2002)). Therefore, the assumption of serial correlation provides not only a more realistic representation on investors behaviour (e.g., as explained by momentum strategies) but also captures important features in financial markets especially for models of portfolio loss or risk. In this teaching page we focus on time-series modelling under the assumption of stationarity and ergodicity. 
 
+2. Time Series Models for Univariate Series
 
 ## Example 1: Stationary AR(1) Model
 
