@@ -55,7 +55,7 @@ Hence, or otherwise obtain the autocovariance and autocorrelation functions.
 
 ## Remarks
 
-1. Notice that although the main assumption regarding the innovation sequence of the the stationary AR(1) time series model is that ut is an i.i.d sequence with mean zero and known variance, this assumption can be further relaxed to incorporate weakly or strongly dependent error sequences. In particular, by imposing a linear process representation then we can introduce the notation of weakly dependent errors 
+1. Notice that although the main assumption regarding the innovation sequence of the the stationary AR(1) time series model is that $u_t$ is an i.i.d sequence with mean zero and known variance, this assumption can be further relaxed to incorporate weakly or strongly dependent error sequences. In particular, by imposing a linear process representation then we can introduce the notation of weakly dependent errors 
 
 $$u_t = \sum_{j=0}^{\infty} c_j \epsilon_{t-j}, \ \ c_0 = 1, \epsilon_t \overset{ i.i.d }{ \sim } ( 0, \sigma^2 ), \ \ \ \text{where} \ \{ c_j \}, \ \  j=1,...,+\infty, \ \ \text{are real coefficients},$$
 
@@ -79,6 +79,9 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 
 ```
 
+## Remarks
+
+Notice that many time series exhibit "long memory", which implies that the autocorrelation function decays slowly with respect to the lag. In general such a time series characteristic traditionally has been modelled in the literature with unit roots (using nonstationary asymptotics), nonlinear dynamics (or regime switching) as well as structural breaks. In particular, in this course we examine the aspect of nonstationarity focusing on two different modelling approaches, that is, (i) the econometric identification of structural breaks and (ii) nonlinear time series modelling such as the threshold regression model (see, [nonstationary](https://github.com/christiskatsouris/Nonstationary)). We leave the study of unit root testing and the corresponding asymptotic theory for a future course.    
 
 
 
