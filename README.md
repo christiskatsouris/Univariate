@@ -47,9 +47,9 @@ Consider the stationary AR(1) model. Write an expression that generates sequenen
 
 $$X_t = \rho X_{t-1} + u_t, X_0 = 0, \ \ \text{then} \ \ \  X_t = \rho^t X_0 + \sum_{j=1}^t \rho^{t-j} u_j.$$
 
-where the information set, that is, the natural filtration at time t is denoted with 
+where the information set, that is, the natural filtration at time t is denoted with $\mathcal{F}_t$ and it holds that
 
-$$\mathcal{F}_t,  \ \ \ \text{and} \ \ \ \mathbb{E} \left(  u_t | \mathcal{F}_{t-1} \right) = 0, \ \ \ \mathsf{Var} \left(  u^2_t | \mathcal{F}_{t-1} \right) = \sigma^2.$$
+$$ \ \ \ \mathbb{E} \left(  u_t | \mathcal{F}_{t-1} \right) = 0, \ \ \ \ \mathsf{Var} \left(  u^2_t | \mathcal{F}_{t-1} \right) = \sigma^2.$$
 
 Hence, or otherwise obtain the autocovariance and autocorrelation functions. 
 
