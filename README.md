@@ -68,7 +68,7 @@ $$\sum_{j=0}^{\infty} | c_j | < + \infty \ \ \ \text{and} \ \ \ \sum_{j=0}^{\inf
 3. Notice that, we consider autoregressive processes which belong to the class of covariance-stationary processes (which are in the class of causal processes). 
 
 
-## Example 2: ARMA(p,q) Modelling 
+## Example 2: Stationary ARMA(p,q) Model 
 
 ```R
 
