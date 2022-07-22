@@ -103,7 +103,12 @@ Following the work of Granger and Andersen (1978) for a linear stationary proces
 
 $$\mathsf{Corr} \left( X^2_t, X^2_{t-k} \right) = [ \mathsf{Corr} \left( X_t, X_{t-k} \right) ]^2$$
 
-for some time series $X_t$ across all k.
+for some time series $X_t$ across all k. Therefore, departures from the above expression indicate the presence of nonlinearity in time series. In particular, using the squared residuals from a linear model we can apply a standard Box-Ljung Portmanteau test for serial correlation (see, Lee, White and Granger (1993)). In other words, the BLP test is sensitive to departures from linearity in mean which implies the presence of ARCH structure in the data, making it a suitable test for detecting the presence of ARCH effects. 
+
+### Remarks
+
+- Notice that nonlinearity in mean should not be confused with a Nonlinear time series model, in which case for the purpose of this course, we refer to a threshold model. Additionally statistical testing for the presence of both nonlinearity and nonstationarity is also a different stream of literature. 
+
 
 
 ## References
@@ -111,12 +116,13 @@ for some time series $X_t$ across all k.
 - Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of
 Financial Studies, 15(2):533-564.
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
+- Lee, T. H., White, H., & Granger, C. W. (1993). Testing for neglected nonlinearity in time series models: A comparison of neural network methods and alternative tests. Journal of Econometrics, 56(3), 269-290.
 - Osborn, D. R. (1984). Causality testing and its implications for dynamic econometric models. The Economic Journal, 94, 82-96.
 
 # Reading List
 
 - Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
-- Hamilton, J. D. (1994). "Time series analysis". Princeton university press. (Chapter 2: Lag Operators)
+- Hamilton, J. D. (1994). "Time series analysis". Princeton University Press. (Chapter 2: Lag Operators)
 - Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
 
 # Historical Fact
