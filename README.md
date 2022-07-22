@@ -96,6 +96,14 @@ Notice that many time series exhibit "long memory", which implies that the autoc
 ```
 
 
+# 3.  Statistical Inference
+
+
+Following the work of Granger and Andersen (1978) for a linear stationary process it holds that 
+
+$$\mathsf{Corr} \left( X^2_t, X^2_{t-k} \right) = [ \mathsf{Corr} \left( X_t, X_{t-k} \right) ]^2$$
+
+for some time series $X_t$ across all k.
 
 
 ## References
