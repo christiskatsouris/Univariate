@@ -105,11 +105,23 @@ Financial Studies, 15(2):533-564.
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
 - Osborn, D. R. (1984). Causality testing and its implications for dynamic econometric models. The Economic Journal, 94, 82-96.
 
-# Further Reading
+# Reading List
 
 - Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
 - Hamilton, J. D. (1994). "Time series analysis". Princeton university press. (Chapter 2: Lag Operators)
 - Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
+
+# Historical Fact
+
+$\textbf{Clive Granger}$ was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (Reference: wikipedia).
+
+# Disclaimer
+
+The author (Christis G. Katsouris) declares no conflicts of interest.
+
+The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.
+
+Any errors or omissions are the responsibility of the author
 
 # How to Cite a Website
 
