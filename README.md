@@ -113,6 +113,7 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 
 ## References
 
+- Granger, C. W. (1980). Long memory relationships and the aggregation of dynamic models. Journal of econometrics, 14(2), 227-238.
 - Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of
 Financial Studies, 15(2):533-564.
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
@@ -121,9 +122,9 @@ Financial Studies, 15(2):533-564.
 
 # Reading List
 
-- Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
-- Hamilton, J. D. (1994). "Time series analysis". Princeton University Press. (Chapter 2: Lag Operators)
-- Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
+$\textbf{[1]}$ Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
+$\textbf{[2]}$  Hamilton, J. D. (1994). "Time series analysis". Princeton University Press. (Chapter 2: Lag Operators)
+$\textbf{[3]}$  Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
 
 # Historical Fact
 
