@@ -123,7 +123,9 @@ Financial Studies, 15(2):533-564.
 # Reading List
 
 $\textbf{[1]}$ Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
+
 $\textbf{[2]}$  Hamilton, J. D. (1994). "Time series analysis". Princeton University Press. (Chapter 2: Lag Operators)
+
 $\textbf{[3]}$  Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
 
 # Historical Fact
