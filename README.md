@@ -96,7 +96,7 @@ Notice that many time series exhibit "long memory", which implies that the autoc
 ```
 
 
-# 3.  Statistical Inference
+# 3.  Statistical Testing
 
 
 Following the work of Granger and Andersen (1978) for a linear stationary process it holds that 
@@ -128,9 +128,9 @@ $\textbf{[2]}$  Hamilton, J. D. (1994). "Time series analysis". Princeton Univer
 
 $\textbf{[3]}$  Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
 
-# Historical Fact
+# Historical Background
 
-$\textbf{Clive Granger}$ was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (Reference: wikipedia).
+$\textbf{Clive Granger}$ was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (see wikipedia).
 
 # Disclaimer
 
