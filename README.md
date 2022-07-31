@@ -94,7 +94,7 @@ $$ \sigma^2_t = \alpha_0 + \sum_{i=1}^{q} \alpha_i \ \epsilon^2_{t-1} + \sum_{i=
 
 where $a_0 \geq 0$, $\alpha_i \geq 0$ and $\beta_i \geq 0$ and $E(\epsilon_0^4) < \infty$. The conditional variance of $\sigma^2_t$ (estimated volatility) is
 
-$$\hat{\sigma}^2 = \hat{\alpha}_0 + \sum_{i=1}^{q} \hat{a}_i  \epsilon^2_{t-1} + \sum_{i=1}^{p} \hat{\beta}_i \hat{\sigma}^2_{t-1}.$$ 
+$$\hat{\sigma}^2 = \hat{\alpha}_0 + \sum_i^{q} \hat{a}_i  \epsilon^2_{t-1} + \sum_i^{p} \hat{\beta}_i \hat{\sigma}^2_{t-1}.$$ 
 
 Appropriate model selection (selection of the lag parameters p and q) can include the use of methods such as autocorrelation and partial autocorrelation functions to identify and check the behaviour of the conditional variance equation of the GARCH model. 
 
