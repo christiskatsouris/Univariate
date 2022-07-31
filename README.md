@@ -116,7 +116,11 @@ $$L_N(\theta) \equiv L_N(\theta ; \epsilon_1,...,\epsilon_N) = \prod_{t=1}^N \fr
 
 and the QMLE for the set of model parameters $\theta=\{\omega, \alpha, \beta \}$ of GARCH(1,1) to be  
 
-$$\hat{\theta}_N = \underset{ \theta \in \Theta}{\text{argmax}} \ L_N(\theta) \text{ or } \underset{\theta \in \Theta}{\text{argmin}} \ \hat{l}_N(\theta), \ \text{where} \ \hat{l}_N(\theta)=\sum_{t=1}^N \bigg\{ \log[\hat{\sigma}^2_t] + \frac{\epsilon^2_t}{\hat{\sigma^2_t}}  \bigg\}.$$
+$$\hat{\theta}_N = \underset{ \theta \in \Theta}{\text{argmax}} \ L_N(\theta)$$
+
+which is equivalent to 
+
+$$ \underset{\theta \in \Theta}{\text{argmin}} \ \hat{l}_N(\theta), \ \text{where} \ \hat{l}_N(\theta)=\sum_{t=1}^N \bigg( \log[\hat{\sigma}^2_t] + \frac{\epsilon^2_t}{\hat{\sigma^2_t}}  \bigg).$$
 
 Then asymptotic normality holds, which implies that, 
 
