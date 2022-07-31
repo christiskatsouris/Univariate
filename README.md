@@ -88,23 +88,23 @@ Notice that many time series exhibit "long memory", which implies that the autoc
 
 The family of ARCH and GARCH models are commonly used parametric models for capturing important stylized features of financial time series such as long memory, volatility clustering, fat tails in the distribution of stock returns etc. In particular, the GARCH(1,1) model or AR(1)-GARCH(1,1) model have repeatedly proved to provide robust parsimonious representations of market volatility (see Hansen (2005)). 
 
-Let $\eta_t$ be a real-valued discrete-time stochastic process on some information set $I_t$ which includes all information up to time $t$. Then the GARCH(p,q) model representation of \cite{bollerslev1986generalized} is given by 
+Let $\eta_t$ be a real-valued discrete-time stochastic process on some information set $I_t$ which includes all information up to time $t$. Then the GARCH(p,q) model representation is given by 
 
 $$ \sigma^2_t = \alpha_0 + \sum_{i=1}^{q} \alpha_i \ \epsilon^2_{t-1} + \sum_{i=1}^{p} \beta_i \ \sigma^2_{t-1}, \ \text{with} \ \epsilon_t \sim N(0,\sigma^2_t),$$
 
-where $\alpha_0 \geq 0$, $\alpha_i \geq 0$ and $\beta_i \geq 0$ and $E(\epsilon_0^4) < \infty$. The conditional variance of $\sigma^2_t$ (i.e., estimated volatility) is given by 
+where $a_0 \geq 0$, $\alpha_i \geq 0$ and $\beta_i \geq 0$ and $E(\epsilon_0^4) < \infty$. The conditional variance of $\sigma^2_t$ (i.e., estimated volatility) is given by 
 
-$$\hat{\sigma}^2 = \hat{\alpha}_0 + \sum_{i=1}^{q} \hat{\alpha}_i \ \epsilon^2_{t-1} + \sum_{i=1}^{p} \hat{\beta}_i \ \hat{\sigma}^2_{t-1}$$. 
+$$\hat{\sigma}^2 = \hat{\alpha}_0 + \sum_{i=1}^{q} \hat{a}_i \ \epsilon^2_{t-1} + \sum_{i=1}^{p} \hat{\beta}_i \ \hat{\sigma}^2_{t-1}$$. 
 
 Appropriate model selection can include the use of methods such as autocorrelation and partial autocorrelation functions to identify and check the behaviour of the conditional variance equation of the GARCH model. 
 
 A GARCH(1,1) regression process is given by the following equations
 
-$$y_t = \mu + \eta_t , \ \eta_t = \sigma_t \epsilon_t  \ \text{with} \ \epsilon_t \sim N(0,1) \ \text{and} \ \sigma^2_t &= \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}$$
+$$y_t = \mu + \eta_t , \ \eta_t = \sigma_t \epsilon_t  \ \text{with} \ \epsilon_t \sim N(0,1) \ \text{and} \ \sigma^2_t = \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}$$
 
 An AR(1)-GARCH(1,1) regression process is given by 
 
-$$y_t = \mu + \rho y_{t-1} + \eta_t , \ \eta_t = \sigma_t \epsilon_t \ \text{with} \ \epsilon_t \sim N(0,1) \ \text{and} \ \sigma^2_t &= \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}.$$
+$$y_t = \mu + \rho y_{t-1} + \eta_t , \ \eta_t = \sigma_t \epsilon_t \ \text{with} \ \epsilon_t \sim N(0,1) \ \text{and} \ \sigma^2_t = \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}.$$
 
 The above non-linear models are valid under certain regulatory conditions which include $\omega , \alpha, \beta \geq 0$ and $\alpha + \beta < 1$ in order to avoid the existence of IGARCH effects. The recursively estimated sequences $\{\sigma^2_t\}_{t=0}^{\infty}$ are assumed to be non negative with probability 1 and common unconditional local mean given by $\sigma^2=\frac{\omega}{1 - \alpha - \beta}$ \ (where $\omega=\alpha_0$). 
 
