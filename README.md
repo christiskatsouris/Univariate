@@ -90,7 +90,7 @@ The family of ARCH and GARCH models are commonly used parametric models for capt
 
 Let $\eta_t$ be a real-valued discrete-time stochastic process on some information set $I_t$ which includes all information up to time $t$. Then the GARCH(p,q) model representation is given by 
 
-$$ \sigma^2_t = \alpha_0 + \sum_{i=1}^{q} \alpha_i \ \epsilon^2_{t-1} + \sum_{i=1}^{p} \beta_i \ \sigma^2_{t-1}, \ \text{with} \ \epsilon_t \sim N(0,\sigma^2_t),$$
+$$ \sigma^2_t = \alpha_0 + \sum_{i=1}^{q} \alpha_i \ \epsilon^2_{t-1} + \sum_{i=1}^{p} \beta_i  \sigma^2_{t-1}, \ \ \ \epsilon_t \sim N(0,\sigma^2_t),$$
 
 where $a_0 \geq 0$, $\alpha_i \geq 0$ and $\beta_i \geq 0$ and $E(\epsilon_0^4) < \infty$. The conditional variance of $\sigma^2_t$ (i.e., estimated volatility) is given by 
 
@@ -124,7 +124,7 @@ $$ \underset{\theta \in \Theta}{\text{argmin}} \ \hat{l}_N(\theta), \ \text{wher
 
 Then asymptotic normality holds, which implies that, 
 
-$$\displaystyle{ \sqrt{N}(\hat{\theta}_N - \theta_0^{*}) \overset{d}{\to} N(\mathbf{0}, \mathbf{V_0} )}, \ \mathbf{V_0}=\mathbf{B_0^{-1}A_0 B_0^{-1}}$$.
+$$\displaystyle{ \sqrt{N}(\hat{\theta}_N - \theta_0^{*}) \overset{d}{\to} N(\mathbf{0}, \mathbf{V_0} )}, \ \mathbf{V_0}=\mathbf{B_0^{-1}A_0 B_0^{-1}}.$$
 
 
 ```R
