@@ -116,7 +116,7 @@ $$\hat{\theta}_N = \underset{ \theta \in \Theta}{\text{argmax}} \ L_N(\theta)$$
 
 which is equivalent to 
 
-$$ \underset{\theta \in \Theta}{\text{argmin}} \ \hat{l}_N(\theta), \ \text{where} \ \hat{\ell}(\theta)_N = \sum \bigg( \log[\hat{\sigma}^2_t] + \frac{\epsilon^2_t}{\hat{\sigma^2_t}}  \bigg).$$
+$$ \underset{\theta \in \Theta}{\text{argmin}} \ \hat{l}_N(\theta), \ \text{where} \ \hat{\ell}_N(\theta) = \sum_t \bigg( \log[\hat{\sigma}^2_t] + \frac{\epsilon^2_t}{\hat{\sigma^2_t}}  \bigg).$$
 
 Then asymptotic normality holds, which implies that, 
 
