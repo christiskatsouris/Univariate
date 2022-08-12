@@ -102,7 +102,7 @@ An AR(1)-GARCH(1,1) regression process is given by
 
 $$y_t = \mu + \rho y_{t-1} + \eta_t , \ \eta_t = \sigma_t \epsilon_t \ \text{with} \ \epsilon_t \sim N(0,1) \ \text{and} \ \sigma^2_t = \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}.$$
 
-The above non-linear models are valid under certain regulatory conditions which include $\omega , \alpha, \beta \geq 0$ and $\alpha + \beta < 1$ in order to avoid the existence of IGARCH effects. The recursively estimated sequences $(\sigma^2_t)$ for t$=0,..., +\infty$ are assumed to be non negative with probability 1 and common unconditional local mean given by $\sigma^2=\frac{\omega}{1 - \alpha - \beta}$. 
+The above non-linear models are valid under certain regulatory conditions which include $\omega , \alpha, \beta \geq 0$ and $\alpha + \beta < 1$ in order to avoid the existence of IGARCH effects. The recursively estimated sequences $(\sigma^2_t)$ for $t=0 ,..., + \infty$ are assumed to be non negative with probability 1 and common unconditional local mean given by $\sigma^2=\frac{\omega}{1 - \alpha - \beta}$. 
 
 Furthermore, statistical estimation can be done by imposing certain parametric assumptions. For example, a commonly used method in the literature is the QMLE. The use of QML estimation can restore any inefficient model estimations (i.e., existence of negative coefficients or out of bounds persistence) and allows for higher estimation precision since the proposed methodology is less restrictive in the moment assumptions of the observed process (i.e., no restriction on normality assumption). 
 
@@ -127,9 +127,29 @@ $$\displaystyle{ \sqrt{N}(\hat{\theta}_N - \theta_0^{*}) \overset{d}{\to} N(\mat
 
 ## Estimation Examples in R 
 
+# Simulating an ARCH(1) model series
 
+n     <- 100
+omega <- 0.25
+alpha <- 0.85
 
+simARCH <- function( n = n, omega = omega, alpha = alpha )
+{# begin-of-function
+  
+  eta        <-rnorm(n)
+  ht         <-as.numeric(n)
+  epsilon    <-as.numeric(n)
+  epsilon[1] <- sqrt(omega)*eta[1]
+  
+  for (t in 2:n) 
+  {
+    ht[t]=omega+alpha*epsilon[t-1]^2
+    epsilon[t]<-sqrt(ht[t])*eta[t]
+   }
+  
+  return( epsilon[1:n] )
 
+}# end-of-function
 ```
 
 
