@@ -181,15 +181,15 @@ Financial Studies, 15(2):533-564.
 
 # Reading List
 
-$\textbf{[1]}$ Tsay, R. S. (2005). "Analysis of financial time series". John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
+$\textbf{[1]}$ Tsay, R. S. (2005). Analysis of financial time series. John Wiley & Sons. (Chapter 1: Financial Time Series and Their Characteristics)
 
-$\textbf{[2]}$  Hamilton, J. D. (1994). "Time series analysis". Princeton University Press. (Chapter 2: Lag Operators)
+$\textbf{[2]}$  Hamilton, J. D. (1994). Time series analysis. Princeton University Press. (Chapter 2: Lag Operators)
 
-$\textbf{[3]}$  Hayashi F. (2002). "Econometrics". Princeton University Press. (Chapter 6: Serial Correlation)
+$\textbf{[3]}$  Hayashi F. (2002). Econometrics. Princeton University Press. (Chapter 6: Serial Correlation)
 
 # Historical Background
 
-$\textbf{Clive Granger}$ was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (see wikipedia).
+$\textbf{Clive Granger}$  (4 September 1934 – 27 May 2009) was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (source: Wikipedia).
 
 # Disclaimer
 
