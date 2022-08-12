@@ -189,7 +189,7 @@ $\textbf{[3]}$  Hayashi F. (2002). Econometrics. Princeton University Press. (Ch
 
 # Historical Background
 
-$\textbf{Clive Granger}$  (4 September 1934 – 27 May 2009) was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (source: Wikipedia).
+$\textbf{Clive Granger}$  (4 September 1934 – 27 May 2009) was a British econometrician who made significant contributions to the field of nonlinear time series analysis. In particular, Professor Clive Granger was awarded the Nobel Memorial Prize in Economic Sciences in 2003 in recognition of the contributions that he and his co-winner, Robert F. Engle, had made to the analysis of time series data. This work fundamentally changed the way in which economists analyse financial and macroeconomic data (Source: Wikipedia).
 
 # Disclaimer
 
