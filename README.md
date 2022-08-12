@@ -166,7 +166,7 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 
 - Notice that nonlinearity in mean should not be confused with a Nonlinear time series model, in which case for the purpose of this course, we refer to a threshold model. Additionally statistical testing for the presence of both nonlinearity and nonstationarity is also a different stream of literature. 
 
-- Many of the aspects we discuss in this teaching page regarding some of the stylized facts of univariate time series are useful for the subsequent stages of time series analysis such as model fitting and estimation, inference as well as forecasting. An overview of forecasting applications is presented in the review of Petropoulos et al. (2022).  
+- Many of the aspects we discuss in this teaching page regarding some of the stylized facts of univariate time series are useful for the subsequent stages of time series analysis such as model fitting and estimation, inference as well as forecasting. An overview of forecasting applications is presented in the recently published review of Petropoulos et al. (2022) at the International Journal of Forecasting.  
 
 
 ## References
