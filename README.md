@@ -173,6 +173,7 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 
 - Granger, C. W. (1980). Long memory relationships and the aggregation of dynamic models. Journal of Econometrics, 14(2), 227-238.
 - Petropoulos, F. et al. (2022). Forecasting: theory and practice. International Journal of Forecasting, 705-871.
+- Horvath, L., & Kokoszka, P. (2003). GARCH processes: structure and estimation. Bernoulli, 9(2), 201-227.
 - Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of
 Financial Studies, 15(2):533-564.
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
