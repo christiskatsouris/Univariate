@@ -47,7 +47,9 @@ highest unconditional expected returns (see, section 2 of Lewellen (2002)). Ther
 
 ## Example 1: Signal-Plus-Noise Model
 
-$$X_t = d_t + U_t, \ \ \ \ i = 1,...,n$$  
+$$X_t = D_t + U_t, \ \ \ \ i = 1,...,n$$  
+
+where $U_t$ is the stochastic component and $d_t$ is the deterministic component, which can take the form of a constant slope such that $D_t = \mu$ or a constant slope and a trend such that $D_t = \mu + \beta t$. 
 
 ## Example 2: Stationary AR(1) Model
 
