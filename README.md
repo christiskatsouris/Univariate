@@ -179,10 +179,10 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 
 ## References
 
+- Berkes, I., Gombay, E., Horváth, L., & Kokoszka, P. (2004). Sequential change-point detection in GARCH (p, q) models. Econometric theory, 20(6), 1140-1167.
 - Granger, C. W. (1980). Long memory relationships and the aggregation of dynamic models. Journal of Econometrics, 14(2), 227-238.
 - Horvath, L., & Kokoszka, P. (2003). GARCH processes: structure and estimation. Bernoulli, 9(2), 201-227.
-- Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of
-Financial Studies, 15(2):533-564.
+- Lewellen, J. (2002). Momentum and autocorrelation in stock returns. The Review of Financial Studies, 15(2):533-564.
 - Lo, A. W. (1991). Long-term memory in stock market prices. Econometrica: Journal of the Econometric Society, 1279-1313.
 - Lee, T. H., White, H., & Granger, C. W. (1993). Testing for neglected nonlinearity in time series models: A comparison of neural network methods and alternative tests. Journal of Econometrics, 56(3), 269-290.
 - Osborn, D. R. (1984). Causality testing and its implications for dynamic econometric models. The Economic Journal, 94, 82-96.
