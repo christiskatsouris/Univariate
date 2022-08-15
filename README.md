@@ -45,7 +45,11 @@ highest unconditional expected returns (see, section 2 of Lewellen (2002)). Ther
 
 # 2.  Time Series Models for Univariate Series
 
-## Example 1: Stationary AR(1) Model
+## Example 1: Signal-Plus-Noise Model
+
+
+
+## Example 2: Stationary AR(1) Model
 
 Consider the stationary AR(1) model. Write an expression that generates sequenentially the series.  
 
