@@ -28,7 +28,7 @@ Similarly the autocorrelation function of the time-series is given by
 
 $$\rho ({k}) = \frac{ \text{Cov} ( X_t , X_{t-k} ) }{ \sigma^2 }.$$
 
-Therefore, both the sample autocovariance (acf) and sample autocorrelation functions are considered as measured of dependency for stationary time-series data. Overall, a simple structural time series model, is the additive decomposition model. Furthermore, in financial time series there are often changes which are long term. Thus, the long term level of $(X_t)$ at time t is a stochastic process and is assumed to be a function of present and past values of $X_t$, $X_{t-1}$,.... Moreover, at time t there will also be a fluctuation component ft which represents new behaviour at time t additional to the existing previous level at time t-1, which is assumed to be stationary, that is, none of its statistical properties change with time. 
+Therefore, both the sample autocovariance (acf) and sample autocorrelation functions are considered as measured of dependency for stationary time-series data. Overall, a simple structural time series model, is the additive decomposition model. Furthermore, in financial time series there are often changes which are long term. Thus, the long term level of $(X_t)$ at time t is a stochastic process and is assumed to be a function of present and past values of $X_t$, $X_{t-1}$,.... Moreover, at time t there will also be a fluctuation component ft which represents new behaviour at time $t$ additional to the existing previous level at time $t-1$, which is assumed to be stationary, that is, none of its statistical properties change with time. 
 
 $$X_t = \ell_{t-1} ( X_{t-1}, X_{t-2},... ) + f_t ( X_{t-1}, X_{t-2}, ...., \epsilon_t,  \epsilon_{t-1}).$$
 
