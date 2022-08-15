@@ -47,7 +47,7 @@ highest unconditional expected returns (see, section 2 of Lewellen (2002)). Ther
 
 ## Example 1: Signal-Plus-Noise Model
 
-
+$$X_t = d_t + U_t, \ \ \ \ i = 1,...,n$$  
 
 ## Example 2: Stationary AR(1) Model
 
