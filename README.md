@@ -32,7 +32,7 @@ Therefore, both the sample autocovariance (acf) and sample autocorrelation funct
 
 $$X_t = \ell_{t-1} ( X_{t-1}, X_{t-2},... ) + f_t ( X_{t-1}, X_{t-2}, ...., \epsilon_t,  \epsilon_{t-1}).$$
 
-Therefore, the above equation can only be seen as a proper stochastic process model, if using the innovations, the equation can sequentially generate a series (Ref: Lecture Notes Financial Time Series). In terms of modelling assumptions we assume the presence of covariance stationary processes with innovation terms that are independently and identically distributed. The particular assumption can be relaxed, however in those cases that the innovation sequences do not follow the i.i.d assumption special considerations regarding the asymptotic theory of statistics and sample moments could apply. 
+Therefore, the above equation can only be seen as a proper stochastic process model, if using the innovations, the equation can sequentially generate a series (Reference: Lecture Notes Financial Time Series). In terms of modelling assumptions we assume the presence of covariance stationary processes with innovation terms that are independently and identically distributed. The particular assumption can be relaxed, however in those cases that the innovation sequences do not follow the i.i.d assumption special considerations regarding the asymptotic theory of statistics and sample moments could apply. 
 
 
 > Reference: Lecture Notes of the course: 'Finacial Time Series (2011-2012), Department of Statistics, University of Warwick taught by [Professor Tony Lawrance](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/lawrance/personal/). 
