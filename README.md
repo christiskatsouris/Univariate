@@ -32,11 +32,10 @@ Therefore, both the sample autocovariance (acf) and sample autocorrelation funct
 
 $$X_t = \ell_{t-1} ( X_{t-1}, X_{t-2},... ) + f_t ( X_{t-1}, X_{t-2}, ...., \epsilon_t,  \epsilon_{t-1}).$$
 
-Therefore, the above equation can only be seen as a proper stochastic process model, if using the innovations, the equation can sequentially generate a series (Reference: Lecture Notes Financial Time Series). 
-
+Therefore, the above equation can only be seen as a proper stochastic process model, if using the innovations, the equation can sequentially generate a series. 
 In terms of modelling assumptions we assume the presence of covariance stationary processes with innovation terms that are independently and identically distributed. The particular assumption can be relaxed, however in those cases that the innovation sequences do not follow the i.i.d assumption special considerations regarding the asymptotic theory of statistics and sample moments could apply. 
 
-> Reference: Lecture Notes of the course: 'Finacial Time Series (2011-2012), Department of Statistics, University of Warwick taught by [Professor Tony Lawrance](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/lawrance/personal/). 
+
 
 ## Remarks
 
@@ -189,6 +188,10 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 - Lee, T. H., White, H., & Granger, C. W. (1993). Testing for neglected nonlinearity in time series models: A comparison of neural network methods and alternative tests. Journal of Econometrics, 56(3), 269-290.
 - Osborn, D. R. (1984). Causality testing and its implications for dynamic econometric models. The Economic Journal, 94, 82-96.
 - Petropoulos, F. et al. (2022). Forecasting: theory and practice. International Journal of Forecasting, 705-871.
+
+### Other
+
+Lecture Notes of the course: 'Finacial Time Series (2011-2012), Department of Statistics, University of Warwick taught by [Professor Tony Lawrance](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/lawrance/personal/)
 
 # Reading List
 
