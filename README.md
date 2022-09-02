@@ -192,7 +192,7 @@ for some time series $X_t$ across all k. Therefore, departures from the above ex
 
 ### Other
 
-Lecture Notes of the course: 'Finacial Time Series (2011-2012), Department of Statistics, University of Warwick taught by [Professor Tony Lawrance](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/lawrance/personal/)
+Lecture Notes of the course: 'Finacial Time Series (2011-2012), Department of Statistics, University of Warwick taught by [Professor Tony Lawrance](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/lawrance/personal/).
 
 # Reading List
 
